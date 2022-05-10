@@ -68,6 +68,7 @@ GEM
       tzinfo (~> 2.0)
     ast (2.4.2)
     backport (1.2.0)
+    bcrypt (3.1.17)
     benchmark (0.2.0)
     bootsnap (1.11.1)
       msgpack (~> 1.2)
@@ -221,6 +222,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  bcrypt (~> 3.1.13)
   bootsnap
   debug
   graphiql-rails (= 1.7.0)
